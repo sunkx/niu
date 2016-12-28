@@ -1,9 +1,11 @@
+/**
+ * Created by sunlin on 2016/12/28.
+ */
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+    res.render('disk', { title: 'Home' });
 });
 
 module.exports = router;
